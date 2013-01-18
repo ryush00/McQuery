@@ -15,6 +15,8 @@ returns
 
 ```
 
+Tests require a Minecraft server running on localhost:25565
+
 == Contributing to McQuery
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
