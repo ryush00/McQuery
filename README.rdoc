@@ -1,6 +1,6 @@
 = McQuery
 
-Description goes here.
+Server ping for Minecraft.
 
 == Contributing to McQuery
  
