@@ -8,6 +8,9 @@ class Query
         @port = port
   end    
 
+# Querys the Minecraft server
+#
+# @return [Hash] Items returned by the server.
   def doQuery
     s = TCPSocket.open(@hostname, @port)
     
