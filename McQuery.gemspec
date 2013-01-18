@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "McQuery"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benjamin James Harrison-Sims"]
@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
+    "McQuery.gemspec",
     "README.md",
     "Rakefile",
     "VERSION",
