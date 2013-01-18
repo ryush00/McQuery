@@ -1,6 +1,4 @@
 require 'socket'
-require 'securerandom'
-require 'timeout'
 
 module McQuery
 class Query
