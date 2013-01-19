@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "McQuery"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benjamin James Harrison-Sims"]
-  s.date = "2013-01-18"
+  s.date = "2013-01-19"
   s.description = "Server ping for Minecraft."
   s.email = "tehrainbowguy@gmail.com"
   s.extra_rdoc_files = [
