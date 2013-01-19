@@ -5,7 +5,7 @@ Server ping for Minecraft.
 ```ruby
 require 'McQuery'
 
-puts McQuery::Query.new('localhost', 25565).doQuery
+puts McQuery::Ping.new('localhost', 25565).doPing
 
 ```
 returns

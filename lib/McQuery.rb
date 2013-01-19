@@ -1,17 +1,17 @@
 require 'socket'
 
 module McQuery
-class Query
+ class Ping
   
   def initialize(hostname, port)
-        @hostname = hostname
-        @port = port
+      @hostname = hostname
+      @port = port
   end    
 
 # Querys the Minecraft server
 #
 # @return [Hash] Items returned by the server.
-  def doQuery
+  def doPing
     s = TCPSocket.open(@hostname, @port)
     
     s.puts "\xFE\x01"
@@ -33,5 +33,6 @@ class Query
       return nil
     end
   end
-end
+   
+ end
 end
